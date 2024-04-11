@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">>
+<head>
+    <title>Calculator</title>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+    <link rel="stylesheet" href="css code.css">
+</head>    
+<body>  
+    <div class="container">
+        <div class="header">
+            <h1>Iphone Calculator clone</h1>
+        </div>
+        <div class="container-wrapper">
+            <input type="text" placeholder="0" id="screen">
+            <button class="first" onclick="allclear()">AC</button>
+            <button class="first" onclick="tambah()">+/-</button>
+            <button class="first" onclick="show('%')">%</button>
+            <button class="symbol" onclick="show('/')">&divide;</button>
+            <button onclick="show('7')">7</button>
+            <button onclick="show('8')">8</button>
+            <button onclick="show('9')">9</button>
+            <button class="symbol" onclick="show('*')">&times;</button>
+            <button onclick="show('4')">4</button>
+            <button onclick="show('5')">5</button>
+            <button onclick="show('6')">6</button>
+            <button class="symbol" onclick="show('-')">&minus;</button>
+            <button onclick="show('1')">1</button>
+            <button onclick="show('2')">2</button>
+            <button onclick="show('3')">3</button>
+            <button class="symbol" onclick="show('+')">+</button>
+            <button onclick="show('00')">00</button>
+            <button onclick="show('0')">0</button>
+            <button onclick="show('.')">.</button>
+            <button class="symbol" onclick="calc()">=</button>
+        </div>
+    </div>
+    <script src="javascript code.js"></script>
+</body>
+</html>
